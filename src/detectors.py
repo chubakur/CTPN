@@ -1,7 +1,7 @@
 from cfg import Config as cfg
 from other import prepare_img, normalize
 import numpy as np
-from utils.cpu_nms import cpu_nms as nms
+from ctpn_utils.cpu_nms import cpu_nms as nms
 from text_proposal_connector import TextProposalConnector
 
 

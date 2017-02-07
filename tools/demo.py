@@ -23,7 +23,7 @@ from other import draw_boxes, resize_im, CaffeModel
 import cv2, os, caffe, sys
 from detectors import TextProposalDetector, TextDetector
 import os.path as osp
-from utils.timer import Timer
+from ctpn_utils.timer import Timer
 
 DEMO_IMAGE_DIR="demo_images/"
 NET_DEF_FILE="models/deploy.prototxt"
